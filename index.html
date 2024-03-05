@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" Content="IE=edge">
+<meta name="viewport" Content="width=device-width, initial-scale=1.0">
+<title>Portafolio</title>
+<link rel="stylesheet" href="estilos.css">
+<script src="https://kit.fontawesome.com/fa065c7453.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- MENU ENCABEZADO-->
+
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#inicio">Estephany</a>
+            </div>
+            <nav id="nav" class="responsive">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">HABILIDADES</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portafolio" onclick="seleccionar()">PORTAFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+
+    </div>
+
+    <!--INICIO-->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="imagenes/persona.jpg" alt="">
+            </div>
+            <h1>ESTEPHANY SURCO</h1>
+            <h2>Ingeniero de Sistemas</h2>
+            <div class="redes">
+                <a href="https://github.com/Esthephy"  target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/estephany-mayra-surco-alvarez-97067a203/"  target="_blank"><i class="fa-brands fa-linkedin"></i></a>                
+                <a href="https://www.facebook.com/elizbeth.alvarez.944"  target="_blank"><i class="fa-brands fa-facebook"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SOBRE MI-->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mi</h2>
+            <p><span>Hola, soy Estephany Surco</span> Soy una profesional dedicada y altamente trabajadora con un enfoque especializado en el desarrollo web. Mi experiencia abarca trabajar con una variedad de dispositivos, incluidos huelleros y lectoras de QR, así como aplicativos móviles. Me apasiona especialmente trabajar en proyectos que involucren la integración de dispositivos. En el ámbito de las aplicaciones móviles, tengo experiencia con Flutter, centrándome principalmente en el desarrollo para Android.
+
+                Recientemente, he explorado mi interés en el diseño gráfico, particularmente en la creación de posters, logos, fotomontajes y publicidad. También me destaco en la redacción, lo que complementa mi habilidad para comunicar eficazmente las ideas a través de diversos medios. Estoy comprometida con el aprendizaje continuo y la mejora constante en todas estas áreas para ofrecer soluciones creativas y efectivas en mis proyectos. </p>
+        
+        <div class="fila">
+            <div class="col">
+                <h3>Datos Personales</h3>
+                <ul>
+                    <li>
+                        <strong>Teléfono</strong>
+                        +51 959889369
+                    </li>
+                    <li>
+                        <strong>Email</strong>
+                        surcoalvarezestephanymayra@gmail.com
+                    </li>
+                    <li>
+                        <strong>Dirección</strong>
+                        Arequipa-Arequipa-Arequipa
+                    </li>
+                    <li>
+                        <strong>Cargo</strong>
+                        Ingeniero TI Jr
+                    </li>
+                </ul>
+            </div>
+            <div class="col">
+                <h3>Intereses</h3>
+                <div class="contenedor-intereses">
+                    <div class="interes">
+                        <i class="fa-solid fa-volleyball"></i>
+                        <span>DEPORTE</span>
+                    </div>
+                    <div class="interes">
+                        <i class="fa-solid fa-plane"></i>
+                        <span>VIAJAR</span>
+                    </div>
+                    <div class="interes">
+                        <i class="fa-solid fa-language"></i>
+                        <span>IDIOMAS</span>
+                    </div>
+                    <div class="interes">
+                        <i class="fa-solid fa-book"></i>
+                        LIBROS
+                    </div>
+                    <div class="interes">
+                        <i class="fa-solid fa-pen-nib"></i>
+                        DISEÑO
+                    </div>
+                    <div class="interes">
+                        <i class="fa-solid fa-camera"></i>
+                        FOTOS
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <!-- <button>
+            Descargar CV <i class="fa-solid fa-download"></i>
+            <span class="overlay"></span>
+        </button> -->
+    </div>
+    </section>
+
+    <!--SECCION SKILLS-->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Habilidades</h2>
+            <div class="fila">
+                <!--Technical Skills-->
+                <div class="col">
+                    <h3>Habilidades Técnicas</h3>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                            <span>65%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                            <span>65%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Photoshop</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                            <span>45%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Ilustrator</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                            <span>45%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Adobe InDesign</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                            <span>45%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Professional Skills-->
+                <div class="col">
+                    <h3>Habilidades Profesionales</h3>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                            <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                            <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                            <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                            <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Gestión de Proyectos</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                            <span>65%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--SECCION CURRICULUM-->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Ingenieria de Sistemas</h4>
+                        <span class="casa">Universidad Nacional de San Agustin</span>
+                        <span class="fecha">2018-2022</span>
+                        <p>He completado satisfactoriamente mis estudios universitarios en la distinguida Universidad Nacional de San Agustín, obteniendo el título de Bachiller en Ingeniería de Sistemas. Durante mi tiempo en la universidad, adquirí una sólida formación académica y desarrollé habilidades fundamentales en este campo, las cuales estoy ansioso por aplicar en mi carrera profesional.</p>
+                            <div class="conectori">
+                                <div class="circuloi">
+
+                                </div>
+                            </div>                            
+                    </div>
+                    <div class="item izq">
+                        <h4>DISEÑO GRÁFICO DIGITAL I</h4>
+                        <span class="casa">CIBERTEC</span>
+                        <span class="fecha">2024-2024</span>
+                        <p>He completado satisfactoriamente los requisitos necesarios para obtener el certificado de formación continua. Durante este programa, adquirí habilidades en diversas herramientas, incluyendo InDesign, Photoshop e Illustrator. Estoy emocionado por poner en práctica estos conocimientos en futuros proyectos y seguir creciendo profesionalmente.</p>
+                            <div class="conectori">
+                                <div class="circuloi">
+                                    
+                                </div>
+                            </div>                            
+                    </div>
+                    <div class="item izq">
+                        <h4>Inglés</h4>
+                        <span class="casa"> Centro Cultural Peruano Norteamericano</span> 
+                        <span class="fecha">2023- Actualmente</span>
+                        <p>En este momento, me encuentro en el nivel Intermedio 06. Aunque aún estoy trabajando en mejorar mi fluidez en inglés, tengo la capacidad de comprender conversaciones en este idioma y mantener diálogos básicos con hablantes nativos.</p>
+                            <div class="conectori">
+                                <div class="circuloi">
+                                    
+                                </div>
+                            </div>                            
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Experiencia de trabajo</h3>
+                    <div class="item der">
+                        <h4>Soporte y FullStack</h4>
+                        <span class="casa">Corporación Rico</span>
+                        <span class="fecha">2023-Actualmente</span>
+                        <p>Actualmente, brindo soporte a sistemas desarrollados en .NET y Angular, donde estoy continuamente mejorando mis habilidades en ambas tecnologías. Mi experiencia en SQL Server, aunque aún en desarrollo, me ha permitido adquirir conocimientos básicos sólidos en el manejo de bases de datos.
+
+                            Aunque aún estoy en proceso de mejorar mis habilidades en SQL Server, he logrado aplicar con éxito los conceptos básicos aprendidos en la administración y manipulación de datos en entornos reales de trabajo. Mi compromiso con el aprendizaje continuo me impulsa a seguir desarrollando mis habilidades en esta área.
+                            
+                            Mi enfoque en el servicio al cliente y mi disposición para aprender y crecer constantemente me permiten abordar con confianza los desafíos que se presentan en mi trabajo diario y seguir contribuyendo de manera significativa al éxito de los proyectos en los que participo.</p>
+                            <div class="conectord">
+                                <div class="circulod">
+                                </div>
+                            </div>                            
+                    </div>
+                    <div class="item der">
+                        <h4>Documentación API</h4>
+                        <span class="casa">Beryllium Company</span>
+                        <span class="fecha">2022-2022</span>
+                        <p>Durante mi trayectoria profesional, he desempeñado una amplia gama de responsabilidades y adquirido habilidades significativas en distintas áreas. Entre mis logros más destacados, destaca mi experiencia en la documentación de servicios API utilizando la herramienta Postman. Esta actividad me permitió no solo comprender en profundidad el funcionamiento de los servicios, sino también comunicar eficazmente su uso y funcionalidades.
+
+                            Además, he tenido la oportunidad de realizar labores de mantenimiento en sistemas desarrollados con Django, lo que me proporcionó una comprensión integral de este marco de trabajo y la capacidad para abordar desafíos de manera efectiva.
+                            
+                            Otro aspecto relevante de mi experiencia es mi participación en la administración de servidores Linux, específicamente en relación con la captura y gestión de coordenadas GPS. Esta tarea requirió un sólido conocimiento de Linux y habilidades avanzadas para asegurar un funcionamiento fluido y confiable del servidor.</p>
+                            <div class="conectord">
+                                <div class="circulod">
+                                </div>
+                            </div>                            
+                    </div>
+                  
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!--SECCION PORTAFOLIO-->
+    <section id="portafolio" class="portafolio">
+        <div class="contenido-seccion">
+            <h2>PORTAFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="imagenes/fotomontaje1.png" alt="">
+                    <div class="overlay">
+                        <h3>Fotomontaje modelo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+
+                <div class="proyecto">
+                    <img src="imagenes/fotomontaje2.png" alt="">
+                    <div class="overlay">
+                        <h3>Fotomontaje Paisaje Helado</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+
+                <div class="proyecto">
+                    <img src="imagenes/fotomontaje3.png" alt="">
+                    <div class="overlay">
+                        <h3>Poster Kunfu Panda</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+
+                <div class="proyecto">
+                    <img src="imagenes/fotomontaje4.png" alt="">
+                    <div class="overlay">
+                        <h3>Mismo tamaño de ojo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+
+                <div class="proyecto">
+                    <img src="imagenes/indesign1.PNG" alt="">
+                    <div class="overlay">
+                        <h3>InDesign </h3>
+                        <p>Revista</p>
+                    </div>
+                </div>
+
+                <div class="proyecto">
+                    <img src="imagenes/indesign2.PNG" alt="">
+                    <div class="overlay">
+                        <h3>InDesign Boxeo </h3>
+                        <p>Revista</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!--SECCION CONTACTO-->
+<section id="contacto" class="contacto">
+    <div class="contenido-seccion">
+        <h2>CONTACTO</h2>
+        <div class="fila">
+            <!--Formulario-->
+            <div class="col">
+                <input type="text" placeholder="Nombre">
+                <input type="text" placeholder="Teléfono">
+                <input type="text" placeholder="Correo">
+                <input type="text" placeholder="Tema">
+                <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                <button>Enviar <i class="fa-solid fa-paper-plane"></i>
+                <span class="overlay"></span>
+                </button>
+            </div>
+            <!--Mapa-->
+            <div class="col">
+                <img src="imagenes/mapa.PNG" alt="">
+                <div class="info">
+                    <ul>
+                        <li>
+                            <i class="fa-solid fa-location-dot"></i>
+                            Cerro Colorado, Arequipa
+                        </li>
+
+                        <li>
+                            <i  class="fa-solid fa-mobile-screen"></i>
+                            +51 959889369
+                        </li>
+
+                        <li>
+                            <i  class="fa-solid fa-envelope"></i>
+                            Email:
+                            surcoalvarezestephanymayra@gmail.com
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--FOOTER-->
+<footer>
+    <a href="#inicio" class="arriba">
+        <i class="fa-solid fa-angles-up"></i>
+    </a>
+    <div class="redes">
+        <a href="https://github.com/Esthephy"  target="_blank"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/estephany-mayra-surco-alvarez-97067a203/"  target="_blank"><i class="fa-brands fa-linkedin"></i></a>                
+        <a href="https://www.facebook.com/elizbeth.alvarez.944"  target="_blank"><i class="fa-brands fa-facebook"></i></a>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
